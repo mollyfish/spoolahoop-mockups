@@ -1,0 +1,23 @@
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #A5AFCA;
+}
+
+footer ul li {
+  display: inline-block;
+  height: 2em;
+  padding: 0;
+}
+
+footer a:link {
+  display: block;
+  height: 2em;
+  padding: 0.5em;
+}
+
+footer a:hover {
+  background-color: #8295C7;
+  color: #241C2E;
+  text-decoration: none;
+}

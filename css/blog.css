@@ -1,0 +1,13 @@
+.blog {
+  float: left;
+  width: 70%;
+  padding: 2em;
+}
+
+.blog a:link {
+  text-decoration: underline;
+}
+.blog a:hover {
+  color: #4F2FC4;
+}
+

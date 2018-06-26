@@ -1,135 +1,13 @@
 body {
   font-family: 'Patrick Hand SC', cursive;
+  color: #241C2E;
   font-size: 1em;
-}
-
-p {
-  font-family: 'Delius', cursive;
-}
-
-header {
-  /* outline: 1px dotted #000000; */
-}
-
-nav {
-  /* outline: 1px dotted blue; */
-  background-color: rgb(165, 175, 202);
   width: 100%;
-  float: left;
-  font-family: 'Patrick Hand SC', cursive;
-  font-size: 110%;
-}
-
-nav ul li {
-  display: block;
-  padding: 1em;
-  float: left;
-}
-
-nav a:link {
-  color: rgb(36, 28, 46);
-  text-decoration: none;
-  /* line-height: 2em; */
-}
-nav a:visited {
-  color: rgb(36, 28, 46);
-}
-nav a:hover {
-  color: rgb(36, 28, 46);
-}
-nav a:active {
-  color: rgb(36, 28, 46);
-}
-
-.left-nav {
-  float: left;
-}
-
-.right-nav {
-  float: right;
-}
-
-.logo {
-  padding: 0 1em 0 0;
-  font-size: 0;
-}
-
-.thumb {
-  padding: 0 1em 0 0;
-  font-size: 0;
+  margin: 0 auto;
 }
 
 main {
   clear: both;
-  width: 100%;
-}
-
-.blog {
-  float: left;
-  width: 70%;
-  padding: 2em;
-}
-
-.blog-post {
-  margin: 0 0 2em 0;
-  outline: 1px dotted red;
-}
-
-.post-info {
-  outline: 1px dotted blue;
-  width: 100%;
-}
-
-.post-body {
-  clear: both;
-  text-align: center;
-}
-
-.post-title {
-  font-size: 180%;
-  display: inline;
-}
-
-.post-author {
-  float: right;
-  text-align: right;
-  padding-right: 0.5em;
-}
-
-.post-author-pic {
-  float: right;
-}
-
-.post-featured {
-  /* text-align: center; */
-}
-
-.post-featured-caption {
-  margin: 0.5em 0;
-}
-
-.post-text {
-  text-align: left;
-}
-
-.post-gallery li {
-  display: inline-block;
-  padding: 0.5em;
-  max-width: 33%;
-}
-
-.post-gallery-caption {
-  margin: 0.5em 0 0 0;
-  /* max-width: 100%; */
-}
-
-.shortcuts {
-  float: right;
-  width: 30%;
-  padding: 2em;
-}
-
-footer {
-  clear: both;
-  text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
