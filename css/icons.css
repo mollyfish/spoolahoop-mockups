@@ -23,10 +23,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-spoolahoop_logo {
+  margin: 0 0.5em;
+}
 
 .icon-spoolahoop_logo:before {
   content: "\e900";
-  font-size: 100%;
 }
 .icon-mail:before {
   content: "\e903";

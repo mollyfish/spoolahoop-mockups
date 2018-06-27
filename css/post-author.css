@@ -1,0 +1,9 @@
+.post-author {
+  float: right;
+  text-align: right;
+  padding-right: 0.5em;
+}
+
+.post-author-pic {
+  float: right;
+}
