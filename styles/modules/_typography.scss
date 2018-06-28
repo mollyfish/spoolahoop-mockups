@@ -1,0 +1,24 @@
+h4 {
+  font-size: 140%;
+}
+
+p {
+  font-family: 'Delius', cursive;
+}
+
+a:link {
+  color: $dark;
+  text-decoration: none;
+}
+a:visited {
+  color: $dark;
+  text-decoration: none;
+}
+a:hover {
+  color: $bright;
+  text-decoration: underline;
+}
+a:active {
+  color: $dark;
+  text-decoration: none;
+}

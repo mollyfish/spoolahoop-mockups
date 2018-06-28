@@ -1,0 +1,23 @@
+footer {
+  clear: both;
+  text-align: center;
+  background-color: $background;
+}
+
+footer ul li {
+  display: inline-block;
+  height: 2em;
+  padding: 0;
+}
+
+footer a:link {
+  display: block;
+  height: 2em;
+  padding: 0.5em;
+}
+
+footer a:hover {
+  background-color: $lowlight;
+  color: $dark;
+  text-decoration: none;
+}

@@ -1,0 +1,38 @@
+nav {
+  background-color: $background;
+  width: 100%;
+  float: left;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 110%;
+}
+
+nav ul li {
+  display: block;
+  height: 3em;
+  padding: 0;
+  float: left;
+}
+
+nav a:link {
+  display: block;
+  height: 3em;
+  padding: 1em;
+}
+
+nav a:hover {
+  background-color: $lowlight;
+  color: $dark;
+  text-decoration: none;
+}
+
+.left-nav {
+  float: left;
+}
+
+.right-nav {
+  float: right;
+}
+
+nav a.thumb-link:link {
+  padding: 1px;
+}
