@@ -1,4 +1,6 @@
 'use strict';
+// command to watch js components for changes in order to compile:
+// npx babel --watch js-tocompile --out-dir compiled --presets react-app/prod
 
 class StoreLink extends React.Component {
   constructor(props) {
@@ -7,7 +9,7 @@ class StoreLink extends React.Component {
 
   render() {
     return (
-      <a href=""><span class="icon-shop"></span> shop spoolahoop merchandise</a>
+      <a href=""><span className="icon-shop"></span> shop spoolahoop merchandise</a>
     );
   }
 }

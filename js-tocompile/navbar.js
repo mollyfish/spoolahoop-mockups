@@ -1,4 +1,6 @@
 'use strict';
+// command to watch js components for changes in order to compile:
+// npx babel --watch js-tocompile --out-dir compiled --presets react-app/prod
 
 class NavBar extends React.Component {
   constructor(props) {

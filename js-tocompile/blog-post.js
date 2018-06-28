@@ -1,4 +1,6 @@
 'use strict';
+// command to watch js components for changes in order to compile:
+// npx babel --watch js-tocompile --out-dir compiled --presets react-app/prod
 
 class BlogPost extends React.Component {
   constructor(props) {
@@ -25,33 +27,27 @@ class BlogPost extends React.Component {
           <ul className="post-gallery">
             <li>
               <img src="http://via.placeholder.com/200x200" />
-              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac,
-                <a href="">blandit dictum</a> enim.</p>
+              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac, <a href="">blandit dictum</a> enim.</p>
             </li>
             <li>
               <img src="http://via.placeholder.com/200x200" />
-              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac,
-                <a href="">blandit dictum</a> enim.</p>
+              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac, <a href="">blandit dictum</a> enim.</p>
             </li>
             <li>
               <img src="http://via.placeholder.com/200x200" />
-              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac,
-                <a href="">blandit dictum</a> enim.</p>
+              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac, <a href="">blandit dictum</a> enim.</p>
             </li>
             <li>
               <img src="http://via.placeholder.com/200x200" />
-              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac,
-                <a href="">blandit dictum</a> enim.</p>
+              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac, <a href="">blandit dictum</a> enim.</p>
             </li>
             <li>
               <img src="http://via.placeholder.com/200x200" />
-              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac,
-                <a href="">blandit dictum</a> enim.</p>
+              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac, <a href="">blandit dictum</a> enim.</p>
             </li>
             <li>
               <img src="http://via.placeholder.com/200x200" />
-              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac,
-                <a href="">blandit dictum</a> enim.</p>
+              <p className="post-gallery-caption">Nam sem quam, <a href="">dapibus vitae</a> neque ac, <a href="">blandit dictum</a> enim.</p>
             </li>
           </ul>
         </div>

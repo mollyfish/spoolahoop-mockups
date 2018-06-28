@@ -16,12 +16,10 @@
 }
 
 .search select {
-  color: $dark;
-  font-family: 'Delius', cursive;
+  @include font-delius();
 }
 
 .search button {
+  @include font-delius();
   margin: 0 0 1em 1em;
-  color: $dark;
-  font-family: 'Delius', cursive;
 }

@@ -1,9 +1,9 @@
 nav {
+  @include font-patrick-hand(110%);
+  @include links($dark, $dark, $dark, $dark, none, none);
   background-color: $background;
   width: 100%;
   float: left;
-  font-family: 'Patrick Hand SC', cursive;
-  font-size: 110%;
 }
 
 nav ul li {
@@ -15,14 +15,11 @@ nav ul li {
 
 nav a:link {
   display: block;
-  height: 3em;
   padding: 1em;
-}
-
-nav a:hover {
-  background-color: $lowlight;
-  color: $dark;
-  text-decoration: none;
+  height: 3em;
+  &:hover {
+    background-color: $lowlight;
+  } 
 }
 
 .left-nav {
