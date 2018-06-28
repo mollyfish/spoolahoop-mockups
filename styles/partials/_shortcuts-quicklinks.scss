@@ -1,0 +1,18 @@
+.quicklinks {
+  margin: 2em 0;
+  border: 1px solid $background;
+  border-radius: 5px;
+  border-top: none;
+}
+
+.quicklinks h5 {
+  background-color: $background;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 0.25em 0.5em 0.4em 0.5em;
+}
+
+.quicklinks ul {
+  list-style-type: circle;
+  margin: 0.5em 0 0.5em 2em;
+}
