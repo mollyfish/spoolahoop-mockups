@@ -3,22 +3,24 @@ h4 {
 }
 
 p {
-  font-family: 'Delius', cursive;
+  @include font-delius();
 }
 
-a:link {
-  color: $dark;
-  text-decoration: none;
-}
-a:visited {
-  color: $dark;
-  text-decoration: none;
-}
-a:hover {
-  color: $bright;
-  text-decoration: underline;
-}
-a:active {
-  color: $dark;
-  text-decoration: none;
+@mixin links($link-color, $visited-color, $hover-color, $active-color, $text-deco, $hov-text-deco) {
+  a {
+    color: $link-color;
+    text-decoration: $text-deco;
+    &:visited {
+      color: $visited-color;
+      text-decoration: $text-deco;
+    }
+    &:hover {
+      color: $hover-color;  
+      text-decoration: $hov-text-deco; 
+    }
+    &:active {
+      color: $active-color;
+      text-decoration: $text-deco;
+    }
+  }
 }

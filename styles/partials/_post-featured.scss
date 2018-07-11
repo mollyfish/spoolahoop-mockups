@@ -1,15 +1,13 @@
 .post-featured {
   text-align: center;
-}
-
-.post-featured img {
-  max-width: 100%;
+  img {
+    max-width: 100%;
+  }
 }
 
 .post-featured-caption {
   margin: 0.5em 0;
-}
-
-.post-featured-caption a:link {
-  text-decoration: underline;
+  a:link {
+    text-decoration: underline;
+  }
 }
