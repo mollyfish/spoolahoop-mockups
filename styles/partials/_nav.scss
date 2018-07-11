@@ -4,22 +4,23 @@ nav {
   background-color: $background;
   width: 100%;
   float: left;
-}
-
-nav ul li {
-  display: block;
-  height: 3em;
-  padding: 0;
-  float: left;
-}
-
-nav a:link {
-  display: block;
-  padding: 1em;
-  height: 3em;
-  &:hover {
-    background-color: $lowlight;
-  } 
+  a:link {
+    display: block;
+    padding: 1em;
+    height: 3em;
+    &:hover {
+      background-color: $lowlight;
+    } 
+  }
+  a.thumb-link:link {
+    padding: 1px;
+  }
+  ul li {
+    display: block;
+    height: 3em;
+    padding: 0;
+    float: left;
+  }
 }
 
 .left-nav {
@@ -30,6 +31,3 @@ nav a:link {
   float: right;
 }
 
-nav a.thumb-link:link {
-  padding: 1px;
-}

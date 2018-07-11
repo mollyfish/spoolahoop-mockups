@@ -15,16 +15,3 @@
   @if $weight { font-weight: $weight; }
 }
 // end mixins modified from https://engageinteractive.co.uk/blog/top-10-scss-mixins
-
-.loved-by {
-  font-family: 'Loved by the King', cursive;
-}
-.delius-swash {
-  font-family: 'Delius Swash Caps', cursive;
-}
-.gamja-flower {
-  font-family: 'Gamja Flower', cursive;
-}
-.amatic {
-  font-family: 'Amatic SC', cursive;
-}
