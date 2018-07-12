@@ -1,9 +1,25 @@
+h3 {
+  font-size: 200%;
+}
+
 h4 {
   font-size: 140%;
 }
 
+h5 {
+  font-size: 100%;
+}
+
+h6 {
+  font-size: 95%;
+}
+
 p {
   @include font-delius();
+}
+
+label {
+  font-size: 120%;
 }
 
 @mixin links($link-color, $visited-color, $hover-color, $active-color, $text-deco, $hov-text-deco) {

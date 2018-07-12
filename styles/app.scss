@@ -5,12 +5,11 @@
 @import "modules/colors.scss";
 @import "modules/fonts.scss";
 @import "modules/icons.scss";
-@import "modules/layout.scss";
 @import "modules/typography.scss";
+@import "modules/layout.scss";
 
 // PARTIALS
 @import "partials/nav.scss";
-@import "partials/blog.scss";
 @import "partials/blog-post.scss";
 @import "partials/post-info.scss";
 @import "partials/post-title.scss";
@@ -21,9 +20,11 @@
 @import "partials/post-gallery.scss";
 @import "partials/post-gallery-img.scss";
 @import "partials/blog-more-link.scss";
-@import "partials/shortcuts.scss";
 @import "partials/shortcuts-search.scss";
 @import "partials/shortcuts-quicklinks.scss";
 @import "partials/shortcuts-store-link.scss";
 @import "partials/shortcuts-ads.scss";
+@import "partials/narrowside.scss";
+@import "partials/wideside.scss";
+@import "partials/pattern-search.scss";
 @import "partials/footer.scss";
